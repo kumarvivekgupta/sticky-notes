@@ -30,7 +30,7 @@ export const NotesProvider = ({ children }) => {
 
 
 
-      setFilteredNotes(foundNotes);
+      setFilteredNotes(sortedElements);
     };
 
     updateFilteredNotes();
@@ -106,7 +106,7 @@ export const NotesProvider = ({ children }) => {
   };
 
   const handlePinUnpin = (e, noteId) => {
-    const { target } = e;
+    // const { target } = e;
     // const { name, value } = target;
 
     const noteIndex = notes.findIndex((note) => note.id === noteId);

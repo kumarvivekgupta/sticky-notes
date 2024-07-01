@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <div className="App">
-        <BrowserRouter basename="/sticky-notes">
+        <BrowserRouter >
           <Routes>
-            <Route exact path="/sticky-notes" element={<HomeApp />} />
+            <Route exact path="/" element={<HomeApp />} />
             <Route path="/notes" element={<NotesApp />} />
           </Routes>
         </BrowserRouter>

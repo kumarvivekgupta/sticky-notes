@@ -1,6 +1,5 @@
 {
   "name": "sticky-notes",
-  "homepage": "https://kumarvivekgupta.github.io/sticky-notes",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

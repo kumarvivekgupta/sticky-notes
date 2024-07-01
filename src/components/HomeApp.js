@@ -9,7 +9,7 @@ export default function HomeApp() {
           <h1 className="text-4xl font-bold mb-4">Welcome to NotesApp</h1>
           <p className="text-xl mb-8">Your personal note-taking assistant</p>
           <div className="container mx-auto text-center mt-8">
-            <a href="/sticky-notes/notes" className="inline-block bg-green-500 hover:bg-green-600 text-white py-4 px-8 rounded-full font-bold text-xl shadow-md transform hover:scale-105 transition duration-300 ease-in-out animate-pulse">Sign Up for Free</a>
+            <a href="/notes" className="inline-block bg-green-500 hover:bg-green-600 text-white py-4 px-8 rounded-full font-bold text-xl shadow-md transform hover:scale-105 transition duration-300 ease-in-out animate-pulse">Sign Up for Free</a>
           </div>
         </div>
       </header>
